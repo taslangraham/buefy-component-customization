@@ -25,7 +25,7 @@ export default new Router({
       component: () =>
         import(
           /* webpackChunkName: "hello-world" */
-          '@/pages/glitch-button'),
+          '@/components/glitch-button'),
     },
     {
       path: '*',
